@@ -18,11 +18,13 @@ def coin_toss(prediction):
     """
 
     user_selection = input("Pick either heads or tails then press enter:\n")
-    toss_result = random.choice(["heads", "tails"])
-    if user_selection == toss_result:
-        print("You won the flip!")
+    possible_choices = ["HEADS", "TAILS"]
+    toss_result = random.choice(possible_choices)
+
+    if user_selection.upper() == toss_result:
+        print(f"{toss_result.upper()}! You won the flip!")
     else:
-        print("The house wins this time!")
+        print(f"{toss_result.upper()}! You lose!")
 
 
 coin_toss("heads")
