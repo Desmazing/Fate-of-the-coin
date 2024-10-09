@@ -12,7 +12,7 @@ import random
 
 def coin_toss(prediction):
     """
-    Function to simulate a coin toss bearing either heads or tails as the result
+    Function to simulate a coin toss with either heads or tails as the result
 
     Args: str > user prrediction of either heads or tails
     Returns: str > random result of the coin toss
@@ -23,9 +23,8 @@ def coin_toss(prediction):
     toss_result = random.choice(possible_choices)
 
     if prediction.upper() == toss_result:
-        print(f"{toss_result.upper()}! You won the flip!")
+        return f"{toss_result.upper()}! You won the flip!"
     else:
-        print(f"{toss_result.upper()}! You lose!")
+        return f"{toss_result.upper()}! You lose!"
 
-
-coin_toss("heads")
+print(repr(coin_toss("heads")))
