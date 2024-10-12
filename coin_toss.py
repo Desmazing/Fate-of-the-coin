@@ -8,6 +8,9 @@ Phase 4: Add-ons
 
 
 import random
+import numpy as np
+from tkinter import *
+from PIL import Image, ImageTk
 
 
 def coin_toss(prediction):
