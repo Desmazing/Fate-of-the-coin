@@ -8,9 +8,6 @@ Phase 4: Add-ons
 
 
 import random
-import numpy as np
-from tkinter import *
-from PIL import Image, ImageTk
 
 
 def coin_toss(prediction):
@@ -28,7 +25,6 @@ def coin_toss(prediction):
 
     if prediction.upper() == toss_result:
         return f"{toss_result.upper()}! You won the flip!"
-    else:
-        return f"{toss_result.upper()}! You lose!"
+    return f"{toss_result.upper()}! You lose!"
 
 print(repr(coin_toss("heads")))

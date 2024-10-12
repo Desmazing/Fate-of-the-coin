@@ -9,7 +9,7 @@ from tkinter import *
 from PIL import Image, ImageTk
 
 
-def tossTheCoin():
+def toss_the_coin():
     """
     Function to simulate a coin toss
     Args > None
@@ -44,7 +44,7 @@ i = Label(root, image=heads)
 i.pack()
 
 root.geometry('500x500')
-b1 = Button(root, text='Toss the coin now!',font=('Arial',10),command=tossTheCoin,bg='teal',fg='white',
+b1 = Button(root, text='Toss the coin now!',font=('Arial',10),command=toss_the_coin,bg='teal',fg='white',
             activebackground='lightblue',padx=10,pady=10)
 b1.pack()
 
