@@ -4,8 +4,8 @@ Utilises tkinter, pillow and numpy
 """
 
 
-import numpy as np
 from tkinter import *
+import numpy as np
 from PIL import Image, ImageTk
 
 
@@ -44,8 +44,8 @@ i = Label(root, image=heads)
 i.pack()
 
 root.geometry('500x500')
-b1 = Button(root, text='Toss the coin now!',font=('Arial',10),command=toss_the_coin,bg='teal',fg='white',
-            activebackground='lightblue',padx=10,pady=10)
+b1 = Button(root, text='Toss the coin now!',font=('Arial',10),command=toss_the_coin,
+            bg='teal',fg='white',activebackground='lightblue',padx=10,pady=10)
 b1.pack()
 
 tfield = Text(root, width=52, height=5)
