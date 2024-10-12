@@ -15,7 +15,7 @@ def coin_toss(prediction):
     Function to simulate a coin toss with either heads or tails as the result
 
     Args: str > user prrediction of either heads or tails
-    Returns: str > random result of the coin toss
+    Return: str > random result of the coin toss
     """
 
     prediction = input("HEADS OR TAILS?:\n")
