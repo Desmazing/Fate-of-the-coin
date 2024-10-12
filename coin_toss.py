@@ -18,9 +18,10 @@ def coin_toss(prediction):
     Returns: str > random result of the coin toss
     """
 
-    prediction = input("Pick either heads or tails then press enter:\n")
+    prediction = input("HEADS OR TAILS?:\n")
     possible_choices = ["HEADS", "TAILS"]
     toss_result = random.choice(possible_choices)
+    # answer_variations = ['tails', 'heads', 't', 'h']
 
     if prediction.upper() == toss_result:
         return f"{toss_result.upper()}! You won the flip!"
