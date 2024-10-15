@@ -1,6 +1,8 @@
 """
 This is the GUI implementation for the coin toss program
 Utilises tkinter, pillow and numpy
+Function + images + No animations
+next step == animation
 """
 
 
@@ -32,7 +34,7 @@ root.title("Python Coin Toss")
 # load heads image
 load = Image.open('C:/Users/desmo/Desktop/Projects/Python/Fate of the coin/Heads.jpg')
 heads = ImageTk.PhotoImage(load)
-# heads = Image.open("Heads.jpg")
+# heads = Image.open('Heads.jpg')
 
 # load tails image
 load2 = Image.open('C:/Users/desmo/Desktop/Projects/Python/Fate of the coin/Tails.jpg')
