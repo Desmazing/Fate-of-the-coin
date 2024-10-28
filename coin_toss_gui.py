@@ -2,7 +2,6 @@
 This is the GUI implementation for the coin toss program
 Utilises tkinter, pillow and numpy
 Function + images + No animations
-next step == animation
 """
 
 
